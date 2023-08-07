@@ -65,17 +65,15 @@
     <section id="home" class="pt-36">
         <div class="container ">
             <div class="flex flex-wrap">
-                <div class="wfull self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary md:text-xl">Hallo semua 👋, saya <span
-                            class="block text-dark font-bold text-4xl lg:text-5xl mt-1">Tisna Hidayat</span></h1>
-                    <h2 class="font-medium text-secondary text-lg lg:text-2xl mb-5">Student & <span
-                            class="font-semibold text-lg lg:text-2xl text-dark">Web
-                            Developer</span></h2>
-                    <p class="font-medium text-slate-400 mb-10 leading-relaxed">Transformasikan ide anda menjadi
-                        tampilan web yang
-                        memikat dengan sentuhan
-                        desain yang <span
-                            class="text-primary font-semibold animate-pulse transition duration-100">kreatif💡</span>
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Hello everyone 👋, I am <span
+                            class="block text-dark font-bold text-4xl lg:text-5xl mt-2 mb-3">Tisna Hidayat</span></h1>
+                    <h2 class="font-medium text-dark text-2xl lg:text-3xl mb-5">I'm a <span id="typed-text"
+                            class="text-primary font-medium text-2xl lg:text-3xl"></span></h2>
+                    <p class="font-medium text-slate-400 mb-5 lg:text-xl leading-relaxed">Transform your ideas into
+                        captivating web designs with a <span
+                            class="text-primary font-semibold animate-pulse transition duration-100">creative
+                            touch💡</span>
                     </p>
                     <a href="#"
                         class="bg-primary font-semibold py-2 px-5 rounded-full hover:shadow-lg hover:opacity-80 hover:text-slate-200 transition duration-400 ease-in-out">Download
@@ -511,9 +509,23 @@
     </footer>
     <!-- Footer End -->
 
+    <!-- Include Typed.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <script>
+        var typing = new Typed('#typed-text', {
+            strings: ["Web Developer", "Mobile Developer", "Front-End Developer"],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true
+
+        });
+    </script>
+
 
     <!-- javascript -->
     <script src="dist/js/script.js"></script>
+
 </body>
 
 </html>
