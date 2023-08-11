@@ -12,7 +12,7 @@ module.exports = {
     },
     extend: {
       animation: {
-        'gravity': 'gravity 7s linear infinite'
+        'gravity': 'gravity 8s linear infinite'
       },
       keyframes: {
         gravity: {
@@ -35,4 +35,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
